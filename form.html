@@ -1,0 +1,87 @@
+<!--elemen dalam form
+
+1. input kolom untuk user bisa input sesuatu
+2. textarea buat isi komentar
+3. select buat dropdown 
+4. button tombol
+5. label menandai elemen 
+
+1. <input type="" name="">
+ ada
+  text
+  password
+  radio 
+  checkbox
+2. <button></button>
+  submit
+  reset
+  button
+3. <textarea></textarea> 
+4. <select></select>
+-->
+
+<!--TEXT-->
+
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML FORM</title>
+</head>
+<body>
+<form>
+	<!--for harus sama dengan id-->
+<table border="0" cellspacing="1" cellpadding="1">
+	<tbody>
+		<tr>
+	<th><label for="username">username :</label>
+	<input type="text" id="username"></th>
+		</tr>
+		<br>
+	<!--PASSWORD-->
+		<tr>
+	<th><label for="password">password :</label>
+	<input type="password" id="password"></th>
+		</tr>
+		<br>
+	<!--RADIO-->
+	
+	<td colspan="2"><input type="radio" id="pria" name="jeniskelamin"><label for="pria">pria</label>
+	<input type="radio" id="wanita" name="jeniskelamin"><label for="wanita">wanita</label></td>
+		<br>
+	<!--CHECKBOX-->
+		<tr>
+	
+	<td colspan="2"><input type="checkbox" id="menyanyi"><label for="menyanyi">menyanyi</label>
+	<input type="checkbox" id="olahraga"><label for="olahraga">olahraga</label>
+	<input type="checkbox" id="ngoding"><label for="ngoding">ngoding</label></td>
+		</tr>
+		<br>
+	<!--TEXTAREA-->
+		<tr>
+	<td><textarea></textarea></td>
+		</tr>
+		<br>
+	<!--SELECT-->
+		<tr>
+		<td>
+	<select>
+		<option>Bandung</option>
+		<option>yogyakarta</option>
+		<option>jakarta</option>
+	</select>
+		</td>
+		</tr>
+		<br>
+	<!--BUTTON-->
+	<tr>
+	<td>
+	<button type="submit">kirim!</button>
+	</td>
+	</tr> 
+</tbody>
+</table>
+</form>
+
+</body>
+</html>
